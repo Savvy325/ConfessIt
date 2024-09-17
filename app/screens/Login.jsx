@@ -41,7 +41,7 @@ export default function Login({ navigation }) {
         <TouchableOpacity style={styles.SignInbutton}>
             <Text
               style={styles.SignInbuttonText}
-              onPress={() => navigation.navigate("Login")}
+              onPress={() => navigation.navigate("Dashboard")}
             >
               Sign In
             </Text>
